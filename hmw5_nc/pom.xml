@@ -25,38 +25,32 @@
   </properties>
 
   <dependencies>
-      <!-- Зависимость для основного фреймворка Spring Boot -->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-web</artifactId>
       </dependency>
 
-      <!-- Зависимость для поддержки Kafka -->
       <dependency>
           <groupId>org.springframework.kafka</groupId>
           <artifactId>spring-kafka</artifactId>
       </dependency>
 
-      <!-- Зависимость для работы с почтой -->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-mail</artifactId>
       </dependency>
 
-      <!-- Логгер -->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-log4j2</artifactId>
       </dependency>
 
-      <!-- Проектирование классов с аннотациями -->
       <dependency>
           <groupId>org.projectlombok</groupId>
           <artifactId>lombok</artifactId>
           <optional>true</optional>
       </dependency>
 
-      <!-- Тестовые зависимости -->
       <dependency>
           <groupId>org.springframework.boot</groupId>
           <artifactId>spring-boot-starter-test</artifactId>
@@ -84,3 +78,4 @@
         </plugins>
     </build>
 </project>
+
